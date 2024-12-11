@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_DangNhap</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>7b887d87-a667-4453-806d-7448f61b677a</testSuiteGuid>
+   <testCaseLink>
+      <guid>3c0108eb-9260-4cd5-989a-a5eacd4a087c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_DangNhap</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6d9a953d-6643-4352-9639-60752010a861</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_DangNhap</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>6d9a953d-6643-4352-9639-60752010a861</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>2038a770-037d-4eb1-a71b-2bcfc0ab1761</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6d9a953d-6643-4352-9639-60752010a861</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>20ddae35-cd17-409c-ac86-674efcbe2ec4</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

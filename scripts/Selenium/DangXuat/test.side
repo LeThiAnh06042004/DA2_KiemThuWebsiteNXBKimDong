@@ -1,0 +1,50 @@
+{
+  "id": "be4c77f8-2ef4-47be-aa8d-f39bbcad47b5",
+  "version": "2.0",
+  "name": "test",
+  "url": "https://nxbkimdong.com.vn/",
+  "tests": [{
+    "id": "fd8f469c-ac9c-4555-b1e8-2ceda70c1047",
+    "name": "DangXuat",
+    "commands": [{
+      "id": "40c2c0f4-cc80-42ec-808f-43caeb9b3e08",
+      "comment": "",
+      "command": "open",
+      "target": "https://nxbkimdong.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a389cd64-eff7-46a6-a82b-9dbc65883d62",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c25ad77f-5226-4dc7-8109-c7f432e55ad8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng xuất",
+      "targets": [
+        ["linkText=Đăng xuất", "linkText"],
+        ["css=.hd-account > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng xuất')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/div/div/div[3]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/logout')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[3]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,' Đăng xuất')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7455d836-1b19-45c5-a5a7-665085fa66c7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fd8f469c-ac9c-4555-b1e8-2ceda70c1047"]
+  }],
+  "urls": ["https://nxbkimdong.com.vn/"],
+  "plugins": []
+}

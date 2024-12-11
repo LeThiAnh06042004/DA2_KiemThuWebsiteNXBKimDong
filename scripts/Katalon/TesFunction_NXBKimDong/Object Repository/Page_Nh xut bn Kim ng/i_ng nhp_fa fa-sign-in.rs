@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_ng nhp_fa fa-sign-in</name>
+   <tag></tag>
+   <elementGuidId>a2e6f88a-3052-4bab-b8c5-5001d68046b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='header']/div[2]/div/div/div[3]/div/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-sign-in</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Đăng nhập&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>3bca744c-9450-48ef-bc5f-d7b91720f194</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-sign-in</value>
+      <webElementGuid>cb0797b4-17d2-47a4-9e7f-ba31ffafa9da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>c3fc346e-fac9-4a7c-8f2d-b4aedf4e7bb6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;inner desktop-header medium--hide small--hide&quot;]/div[@class=&quot;grid&quot;]/div[@class=&quot;grid__item large--four-twelfths text-right&quot;]/div[@class=&quot;hd-account&quot;]/a[@class=&quot;popup_form_user_btn&quot;]/i[@class=&quot;fa fa-sign-in&quot;]</value>
+      <webElementGuid>1c96da6a-a767-4ba6-b4b6-12437069828d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='header']/div[2]/div/div/div[3]/div/a/i</value>
+      <webElementGuid>719eb0ff-877a-4673-b4bc-9f2a938dfc16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[3]/div/a/i</value>
+      <webElementGuid>a5787245-706e-42c2-82ca-7f4228721b7e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
