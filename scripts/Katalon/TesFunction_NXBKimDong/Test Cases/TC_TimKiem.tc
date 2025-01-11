@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_TimKiem</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>357153ad-4474-4747-aa97-7222377b8716</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bca63256-9477-45a2-9770-143d716def94</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bca63256-9477-45a2-9770-143d716def94</id>
+      <masked>false</masked>
+      <name>tentruyen</name>
+   </variable>
+</TestCaseEntity>

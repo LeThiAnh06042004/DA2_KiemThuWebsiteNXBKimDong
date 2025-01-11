@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_cskh_onlinenxbkimdong.com.vn_fa fa-search</name>
+   <tag></tag>
+   <elementGuidId>2aa6ed7d-a984-4d89-b3c6-2101ec58755c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='searchsubmit']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#searchsubmit > i.fa.fa-search</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#searchsubmit</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>3ce6a781-36a5-43b1-8a19-41ae5bf2a3c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-search</value>
+      <webElementGuid>9b83bfa9-0bbe-44bd-9fe6-627d0daf466c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>2aa9f7a6-5d8d-493f-b05c-7af711fb1821</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;searchsubmit&quot;)/i[@class=&quot;fa fa-search&quot;]</value>
+      <webElementGuid>742c05d1-70a4-4e44-9bf1-d47c65ac0664</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='searchsubmit']/i</value>
+      <webElementGuid>ecc42a32-b4f5-494a-94e0-9b3fb9abec78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/form/div/div/div/span/button/i</value>
+      <webElementGuid>1ed64649-b364-498e-9195-c6ab2e84abdb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
