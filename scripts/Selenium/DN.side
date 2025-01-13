@@ -1,0 +1,234 @@
+{
+  "id": "17dc797b-8098-419d-af9b-bcd8f0931f4f",
+  "version": "2.0",
+  "name": "Test",
+  "url": "https://nxbkimdong.com.vn",
+  "tests": [{
+    "id": "dcc5f7a5-a20d-4bc8-98b7-c2262ebda25a",
+    "name": "DangNhap",
+    "commands": [{
+      "id": "f16277cf-0c17-4fb2-92b6-91fbd39d7cd9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "268b4209-7fa6-4c3a-8d3d-7fa1414bef11",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x666",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85281922-c406-4c02-a454-f4a5d702be1f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng nhập",
+      "targets": [
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=.popup_form_user_btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/div/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a97530c5-ee07-48e5-9dbc-4e359ad4df64",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/input[3]", "xpath:position"]
+      ],
+      "value": "anhle06042004@gmail.com"
+    }, {
+      "id": "018d50b8-e7e4-4580-8c15-9dd9b97aee33",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0be71b2-784e-48b6-b72e-c83240eedc04",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "Lethianh12345"
+    }, {
+      "id": "520fbd6d-9258-417e-a2c2-a6e728079480",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(7) > .btn",
+      "targets": [
+        ["css=p:nth-child(7) > .btn", "css:finder"],
+        ["xpath=//input[@value='Đăng nhập']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6a69d3a5-e62c-4899-93c3-54666751e52c",
+    "name": "Data_DangNhap",
+    "commands": [{
+      "id": "5a3c3a3b-1edc-4545-a345-a93d14328b6f",
+      "comment": "",
+      "command": "store",
+      "target": "anhle06042004@gmail.com",
+      "targets": [],
+      "value": "username"
+    }, {
+      "id": "ab07f418-5762-4651-a519-cf31331ae9b1",
+      "comment": "",
+      "command": "store",
+      "target": "Lethianh12345",
+      "targets": [],
+      "value": "password"
+    }, {
+      "id": "9ae95eea-8130-423e-acd7-77ddadad6f31",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/input[3]", "xpath:position"]
+      ],
+      "value": "${username}"
+    }, {
+      "id": "021f795c-947b-4b14-8b32-bb1e67bc3df7",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "${password}"
+    }, {
+      "id": "80f71aaf-fab5-4c91-95f2-33900971fe7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(7) > .btn",
+      "targets": [
+        ["css=p:nth-child(7) > .btn", "css:finder"],
+        ["xpath=//input[@value='Đăng nhập']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5e3e0d22-4755-4403-97f6-ae36d5e15729",
+    "name": "Data_Login",
+    "commands": [{
+      "id": "34d9ff8d-7a4b-46ee-ba35-ab79faf346bc",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return [   {username: \"anhle06042004@gmail.com\", password: \"Lethianh12345\"},   {username: \"\", password: \"\"},   {username: \"anhle06042004@gmail.com\", password: \"\"},   {username: \"\", password: \"Lethianh12345\"},   {username: \"anhle06042004@gmail.com\", password: \"Lethianh123\"},   {username: \"anhle06042004@gmail.com\", password: \"anh123\"},   {username: \"anhle06042004@gmail.com\", password: \"#anhle@123\"},   {username: \"anhle06042004@gmail.com\", password: \" Leanh123\"},   {username: \"anhle@6.4\", password: \"Lethianh12345\"},   {username: \"lethianh64\", password: \"Lethianh12345\"},   {username: \"anh@6.4\", password: \"Lethianh12345\"},   {username: \" Leanh@1.23\", password: \"Lethianh12345\"},   {username: \"anhlethi@123.com\", password: \"12345678\"} ]",
+      "targets": [],
+      "value": "users"
+    }, {
+      "id": "8f21e3df-d998-4292-8659-662c05f972d7",
+      "comment": "",
+      "command": "forEach",
+      "target": "${users}",
+      "targets": [],
+      "value": "user"
+    }, {
+      "id": "a26d8222-1f45-41b1-ace0-42e04a14fd65",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return user.username",
+      "targets": [],
+      "value": "username"
+    }, {
+      "id": "fee6bcbd-eaf4-4b19-9c85-932e3e6788a4",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return user.password",
+      "targets": [],
+      "value": "password"
+    }, {
+      "id": "6f6005e6-17ed-43e3-a560-d6cb256bee1e",
+      "comment": "",
+      "command": "open",
+      "target": "https://nxbkimdong.com.vn/?traffic_id=6766ddbed2ed7e00010d242a&ref=mo&utm_source=masoffer&gad_source=1&gclid=Cj0KCQiAyc67BhDSARIsAM95Qzu--BQT28U1AaVPt4fplhX_jGLhOix0W-xWhjfTqLFetnKysZ6b_yIaAhvEEALw_wcB#popup_form_user",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8b52855-dbad-4e3e-97bf-09bd3c608925",
+      "comment": "",
+      "command": "type",
+      "target": "id = CustomerEmail",
+      "targets": [],
+      "value": "${username}"
+    }, {
+      "id": "44973ca2-0b47-405d-88bb-f0de3a00b663",
+      "comment": "",
+      "command": "type",
+      "target": "id = CustomerPassword",
+      "targets": [],
+      "value": "${password}"
+    }, {
+      "id": "ec8ab3ff-fe22-4cd2-9aac-315088881365",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(7) > .btn",
+      "targets": [
+        ["css=p:nth-child(7) > .btn", "css:finder"],
+        ["xpath=//input[@value='Đăng nhập']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbb65f48-5260-4131-8be2-e5fe81f44c35",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5fed429c-8d35-444c-a0d7-19cd1151a3b7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dcc5f7a5-a20d-4bc8-98b7-c2262ebda25a"]
+  }],
+  "urls": ["https://nxbkimdong.com.vn/"],
+  "plugins": []
+}
